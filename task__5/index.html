@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>task_6</title>
+</head>
+
+<body>
+	<div class="head__container">
+		<div class="head__title">
+			<h1>Задача 6</h1>
+		</div>
+		<div class="head__subtitle">
+			<h6>Користувач задає кількість оцінок і натискає на кнопку «get table». В результаті формується таблиця з
+				input, куди
+				користувач вводить оцінки. Після цього натискає на кнопку “get sum” і знаходить середнє значення.</h6>
+		</div>
+		<div class="head__input input">
+			<div class="input__container">
+				<div class="input__container-task">
+					<div class="input__task-box">
+						<label class="input__task-text">Введіть кількість оцінок</label>
+						<input id="numOfGrades" class="input__task-number" type="number">
+					</div>
+				</div>
+				<div class="input__task-button">
+					<button id="createTableBtn" class="button">get table</button>
+				</div>
+				<div id="gradesTable" class="grades__table-container"></div>
+				<div class="input__task-button">
+					<button id="getSumBtn" class="button">get sum</button>
+				</div>
+				<div class="input__result-container">
+					<p>Середнє значення: <span id="gradesAvg"></span></p>
+				</div>
+			</div>
+
+			<script src="js/script.js"></script>
+		</div>
+</body>
+
+</html>

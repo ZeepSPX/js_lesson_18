@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+body {
+	font-family: "Lato";
+	color: #000000;
+	background-color: #ffffff;
+}
+
+[class*="__container"] {
+	max-width: 1260px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.page__one {
+	margin-top: 25px;
+}
+
+.head__container {
+	margin-top: 25px;
+}
+.head__title {
+	font-size: 30px;
+}
+.head__subtitle {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.table-style tr td {
+	border: 1px solid #000000;
+	color: #000000;
+}
+
+.input__container {
+}
+.input__stage {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.input__transport {
+}
+.input__eat {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+.input__guide {
+	display: flex;
+	gap: 15px;
+	align-items: center;
+}
+
+.input__result-container {
+}

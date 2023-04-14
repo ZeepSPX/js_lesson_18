@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>task_7</title>
+</head>
+
+<body>
+	<div class="head__container">
+		<div class="head__title">
+			<h1>Задача 7</h1>
+		</div>
+		<div class="head__subtitle">
+			<h6>Подорож складається з 3 етапів. На кожному етапі користувач може вибрати один з видів транспорту (авто,
+				автобус, літак -
+				випадаючий список), харчування (сніданок, обід, вечеря – checkbоx) та одного з 3-х гідів(використати -
+				radio buttons).
+				Ціни визначте самі. Підрахувати загальну вартість.
+			</h6>
+		</div>
+		<div class="head__input input">
+			<div class="input__container">
+				<div class="input__stage">
+					<div class="input__transport">
+						<label for="transport-1">Транспорт:</label>
+						<select name="transport" id="transport-1">
+							<option value="150">Авто (150)</option>
+							<option value="350">Автобус (350)</option>
+							<option value="1500">Літак (1500)</option>
+						</select>
+					</div>
+
+					<div class="input__eat">
+						<label for="eat">Харчування: </label>
+
+						<input type="checkbox" name="breakfast" id="breakfast-1" value="100">
+						<label for="breakfast-name">сніданок (100)</label>
+
+						<input type="checkbox" name="lunch" id="lunch-1" value="230">
+						<label for="lunch-name">обід (230)</label>
+
+						<input type="checkbox" name="dinner" id="dinner-1" value="450">
+						<label for="dinner-name">вечеря (450)</label>
+					</div>
+
+					<div class="input__guide">
+						<label for="guide">Гід: </label>
+
+						<input type="radio" name="guide-1" id="guide-1" value="430">
+						<label for="guide-1">Олег Карпович (430)</label>
+
+						<input type="radio" name="guide-2" id="guide-2" value="500">
+						<label for="guide-2">Дмитро Олександрович (500)</label>
+
+						<input type="radio" name="guide-3" id="guide-3" value="700">
+						<label for="guide-3">Максименко Максимільян Леонідович (700)</label>
+					</div>
+
+					<div class="input__result-container">
+						<p>Сума відпочинку в Греції: <span id="gradesAvg"></span></p>
+					</div>
+				</div>
+			</div>
+			<script src="js/script.js"></script>
+		</div>
+	</div>
+</body>
+
+</html>
